@@ -1,7 +1,5 @@
 OWASP WebGoat Personal Solution
 ====================
-記錄個人學習WebGoat的一些解法
-
 
 使用版本
 ----
