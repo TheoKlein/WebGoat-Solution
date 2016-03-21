@@ -11,6 +11,7 @@ OWASP WebGoat Personal Solution
 ----
 *   **WebScarab**
 [http://tools.kali.org/web-applications/webscarab](http://tools.kali.org/web-applications/webscarab)
+*	**JHijack**[https://www.owasp.org/index.php/JHijack](https://www.owasp.org/index.php/JHijack)
 
 
 (持續更新...)
