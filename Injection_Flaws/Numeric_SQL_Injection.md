@@ -1,5 +1,11 @@
 Numeric SQL Injection
 ====
+使用工具
+----
+*    無
+
+* * *
+
 繼上一題[Injection Flaws - Command Injection](Command_Injection.md)之後，可以小小的感受到Injection攻擊的威力。
 這題也是HTML網頁中常見的select表單，但下方特別寫出了後端呼叫資料庫的SQL語句。
 
