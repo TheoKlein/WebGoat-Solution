@@ -35,7 +35,7 @@ WebScarab切換到SessionID Analysis的頁面，Previous Request的欄位選擇U
 
 ![Hijack a Session-08](../_Screenshot/Session_Management_Flaws/Hijack_a_Session/Hijack_a_Session-08.png)
 
-這時候開啟JHijack來準備嘗試所有可能，上方的路徑參數請依照自己的環境設定，特別的是Grep的部分，我們知道WebGoat如果解題成功畫面上會有「Congratulations」的字，這個欄位就是在每次嘗試以後去尋找頁面中有無此字串。SESSION就填入攔截到的「JSESSIONID」、HijackID就是重點，這個欄位是我們想要多次嘗試不同可能的參數，此題我們要是的就是WEAKID，前面我們可以確定的部分直接填上，最後三碼不確定打上「$」，「$」的範圍就是下方的Range，剛剛有看到後三碼也是有規律的生成，所以範圍一定會介於前後兩者中間，若不確定也可以直接從「001」跑到「999」，直接把所有可能是一遍。
+這時候開啟JHijack來準備嘗試所有可能，上方的路徑參數請依照自己的環境設定，特別的是Grep的部分，我們知道WebGoat如果解題成功畫面上會有「Congratulations」的字，這個欄位就是在每次嘗試以後去尋找頁面中有無此字串。SESSION就填入攔截到的「JSESSIONID」、HijackID就是重點，這個欄位是我們想要多次嘗試不同可能的參數，此題我們要是的就是WEAKID，前面我們可以確定的部分直接填上，最後三碼不確定打上「$」，「$」的範圍就是下方的Range，剛剛有看到後三碼也是有規律的生成，所以範圍一定會介於前後兩者中間，若不確定也可以直接從「001」跑到「999」，直接把所有的可能試一遍。
 
 ![Hijack a Session-09](../_Screenshot/Session_Management_Flaws/Hijack_a_Session/Hijack_a_Session-09.png)
 
