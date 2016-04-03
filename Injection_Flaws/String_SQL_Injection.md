@@ -17,6 +17,7 @@ String SQL Injection
 ![String_SQL_Injection-03](../_Screenshot/Injection_Flaws/String_SQL_Injection/String_SQL_Injection-03.png)
 
 既然我們輸入字串後，後端會自動加入前後的單引號，那我們可以自己輸入一個單引號來結束這個字串並且在後面加入一個恆等式，最後再把後方所有的程式碼註解。
+
 `Smith' OR 1=1/*`
 
 就可以成功列出資料表內所有的資料。
